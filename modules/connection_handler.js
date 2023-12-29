@@ -3,7 +3,7 @@ const settings = require("./settings.js");
 const onlineControllerURL = settings.onlineController_URL;
 const offlineControllerURL = settings.offlineController_URL;
 
-const controllerURL = offlineControllerURL;
+const controllerURL = onlineControllerURL;
 
 var users = {};
 var games = {};
