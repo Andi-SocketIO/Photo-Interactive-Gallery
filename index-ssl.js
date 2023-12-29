@@ -48,7 +48,7 @@ HTTP.listen(PORT, () => {
 });
 
 function connection(socket) {
-   connection_handler.init(socket);
+   connection_handler.init(socket, io, fs);
 }
 
 const imageHandler = image.init(app, fs);
