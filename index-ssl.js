@@ -9,7 +9,7 @@ const { log } = require("console");
 const connection_handler = require("./modules/connection_handler.js");
 const image = require("./modules/image.js");
 const path = require("path");
-const settings = require("./modules/data.js");
+const settings = require("./modules/settings.js");
 
 const app = express();
 app.use(cors());
